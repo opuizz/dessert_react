@@ -1,0 +1,14 @@
+/* setting */
+@import "setting/fonts.css";
+@import "setting/reset.css";
+@import "setting/comon.css";
+
+/* section */
+@import "section/header.css";
+@import "section/slider.css";
+@import "section/img.css";
+@import "section/imgText.css";
+@import "section/card.css";
+@import "section/banner.css";
+@import "section/text.css";
+@import "section/footer.css";

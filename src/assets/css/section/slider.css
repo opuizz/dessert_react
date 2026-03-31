@@ -1,0 +1,67 @@
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+.slider_img {
+  width: 100%;
+  height: 580px;
+}
+.s1 {
+  background: url(../img/bannerSlider01.jpg) center top;
+}
+.s2 {
+  background: url(../img/bannerSlider02.jpg) center top;
+}
+.s3 {
+  background: url(../img/bannerSlider03.jpg) center top;
+}
+#sliderType.desc {
+  font-family: "GMarketSans";
+  box-sizing: border-box;
+  height: inherit;
+  padding: 100px 0;
+}
+#sliderType.desc span {
+  background-color: aliceblue;
+  padding: 1px 14px 2px 14px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#sliderType.desc h3 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+}
+#sliderType.desc p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  width: 507px;
+  line-height: 133%;
+  margin-bottom: 70px;
+}
+#sliderType .desc .btn a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 11px 50px;
+}
+#sliderType .desc .btn a.brown {
+  margin-left: 20px;
+  background-color: #202022;
+  color: #fff;
+}
+
+/* swiper */
+.dessert_hero .swiper-button-next,
+.dessert_hero .swiper-button-prev {
+  color: aliceblue;
+}
+
+.dessert_hero .swiper-pagination-bullet-active {
+  background: aliceblue;
+}
+.dessert_hero {
+  --swiper-pagination-bullet-size: 15px;
+}
