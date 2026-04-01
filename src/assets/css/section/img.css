@@ -42,3 +42,21 @@
 .image_btn.choco {
   background-color: #1c0206;
 }
+article.img1 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s;
+}
+article.img1.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+article.img2 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1.2s;
+}
+article.img2.show {
+  transform: translateY(0);
+  opacity: 1;
+}

@@ -5,10 +5,10 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { sliderData } from "../data/sliderData";
 
-const Slider = () => {
+const Slider = (props) => {
   return (
     <section id="sliderType">
-      <h2 className="blind">슬라이드 유형</h2>
+      <h2 className="blind">{props.title}</h2>
       <Swiper navigation={true} modules={[Navigation]} className="dessert_hero">
         {sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>

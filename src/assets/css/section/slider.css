@@ -1,4 +1,9 @@
 /* sliderType */
+.dessert_hero {
+  height: 580px;
+  position: relative;
+}
+
 .slider_img {
   width: 100%;
   height: 580px;
